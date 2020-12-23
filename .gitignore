@@ -1,0 +1,6 @@
+.settings.php
+dbconn.php
+/node_modules
+.DS_Store
+Thumbs.db
+/.idea

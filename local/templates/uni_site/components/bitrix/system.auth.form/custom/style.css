@@ -1,0 +1,52 @@
+.auth__form {
+  display: flex;
+  padding: 25px 35px 30px;
+}
+.auth__title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.auth__inputs {
+  font-size: 14px;
+}
+.auth__inputs input {
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+  background-color: #f6f6f6;
+  padding: 9px 10px;
+  margin-bottom: 10px;
+}
+.auth__form-remember {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.auth__form-remember a {
+  text-decoration: none;
+}
+.auth__form-signIn input {
+  background-color: #0065ff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 3px;
+  color: #ffffff;
+}
+.auth__form-signUp-btn {
+  background-color: #0065ff;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 8px 20px;
+}
+.auth__form-signUp-btn a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.auth__form-signUp .before-reg {
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

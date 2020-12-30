@@ -1,8 +1,1 @@
-<?
-$arTemplate = array (
-  'NAME' => 'UNI SITE',
-  'DESCRIPTION' => '',
-  'SORT' => '',
-  'TYPE' => '',
-);
-?>
+<?$arTemplate = Array("NAME"=>"Пустой шаблон для сайта", "DESCRIPTION"=>"");?>

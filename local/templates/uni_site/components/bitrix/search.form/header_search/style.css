@@ -1,0 +1,15 @@
+.header__search-form {
+  display: flex;
+  align-items: center;
+}
+.header__search-text {
+  width: 100%;
+  border: none;
+  padding: 20px;
+  font-size: 30px;
+}
+.header__search-text:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,29 @@
+.header__row {
+  display: flex;
+  justify-content: space-between;
+}
+.header__row .info {
+  display: flex;
+}
+.header__row .info__item {
+  padding: 0 20px;
+}
+.header__row .info__btn {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+.header__row .info__btn:focus {
+  outline: none;
+}
+.header__row .info .modal-search {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+.header__row .info .fade-search {
+  padding: 0 !important;
+}
+
+/*# sourceMappingURL=style.css.map */

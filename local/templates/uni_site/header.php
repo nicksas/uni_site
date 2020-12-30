@@ -1,221 +1,211 @@
-<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
-IncludeTemplateLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/templates/".SITE_TEMPLATE_ID."/header.php");
+<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
+IncludeTemplateLangFile($_SERVER["DOCUMENT_ROOT"] . "/bitrix/templates/" . SITE_TEMPLATE_ID . "/header.php");
 CJSCore::Init(array("fx"));
 
 \Bitrix\Main\UI\Extension::load("ui.bootstrap4");
 
-if (isset($_GET["theme"]) && in_array($_GET["theme"], array("blue", "green", "yellow", "red")))
-{
-	COption::SetOptionString("main", "wizard_eshop_bootstrap_theme_id", $_GET["theme"], false, SITE_ID);
+if (isset($_GET["theme"]) && in_array($_GET["theme"], array("blue", "green", "yellow", "red"))) {
+    COption::SetOptionString("main", "wizard_eshop_bootstrap_theme_id", $_GET["theme"], false, SITE_ID);
 }
 $theme = COption::GetOptionString("main", "wizard_eshop_bootstrap_theme_id", "green", SITE_ID);
 
 $curPage = $APPLICATION->GetCurPage(true);
 
 ?><!DOCTYPE html>
-<html xml:lang="<?=LANGUAGE_ID?>" lang="<?=LANGUAGE_ID?>">
+<html xml:lang="<?= LANGUAGE_ID ?>" lang="<?= LANGUAGE_ID ?>">
 <head>
-	<title><?$APPLICATION->ShowTitle()?></title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
-	<link rel="shortcut icon" type="image/x-icon" href="<?=SITE_DIR?>favicon.ico" />
-	<? $APPLICATION->ShowHead(); ?>
+    <title><? $APPLICATION->ShowTitle() ?></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= SITE_DIR ?>favicon.ico"/>
+    <? $APPLICATION->ShowHead(); ?>
+    <?
+    use Bitrix\Main\Page\Asset;
+
+    Asset::getInstance()->addCss("https://unpkg.com/swiper/swiper-bundle.css");
+    Asset::getInstance()->addCss("https://unpkg.com/swiper/swiper-bundle.min.css");
+    Asset::getInstance()->addJs("https://unpkg.com/swiper/swiper-bundle.js");
+    Asset::getInstance()->addJs("https://unpkg.com/swiper/swiper-bundle.min.js");
+    ?>
 </head>
-<body class="bx-background-image bx-theme-<?=$theme?>" <?$APPLICATION->ShowProperty("backgroundImage");?>>
+<body class="bx-background-image bx-theme-<?= $theme ?>" <? $APPLICATION->ShowProperty("backgroundImage"); ?>>
+
 <div id="panel"><? $APPLICATION->ShowPanel(); ?></div>
-<?$APPLICATION->IncludeComponent(
-	"bitrix:eshop.banner",
-	"",
-	array()
-);?>
+<? $APPLICATION->IncludeComponent(
+    "bitrix:eshop.banner",
+    "",
+    array()
+); ?>
 <div class="bx-wrapper" id="bx_eshop_wrap">
-	<header class="bx-header">
-		<div class="bx-header-section container">
-			<!--region bx-header-->
-			<div class="row pt-0 pt-md-3 mb-3 align-items-center" style="position: relative;">
-				<div class="d-block d-md-none bx-menu-button-mobile" data-role='bx-menu-button-mobile-position'></div>
-				<div class="col-12 col-md-auto bx-header-logo">
-					<a class="bx-logo-block d-none d-md-block" href="<?=SITE_DIR?>">
-						<?$APPLICATION->IncludeComponent(
-							"bitrix:main.include",
-							"",
-							array(
-								"AREA_FILE_SHOW" => "file",
-								"PATH" => SITE_DIR."include/company_logo.php"),
-							false
-						);?>
-					</a>
-					<a class="bx-logo-block d-block d-md-none text-center" href="<?=SITE_DIR?>">
-						<?$APPLICATION->IncludeComponent(
-							"bitrix:main.include",
-							"",
-							array(
-								"AREA_FILE_SHOW" => "file",
-								"PATH" => SITE_DIR."include/company_logo_mobile.php"
-							),
-							false
-						);?>
-					</a>
-				</div>
+    <header class="bx-header header">
+        <div class="bx-header-section container">
+            <div class="row pt-0 pt-md-3 mb-3 align-items-center header__row" style="position: relative;">
+                <? $rsSites = CSite::GetByID(SITE_ID);
+                $arSite = $rsSites->Fetch(); ?>
+                <div class="col-12 col-md-auto header__menu">
+                    <? $APPLICATION->IncludeComponent(
+                        "bitrix:menu",
+                        "top_menu",
+                        array(
+                            "ROOT_MENU_TYPE" => "top",
+                            "MENU_CACHE_TYPE" => "A",
+                            "MENU_CACHE_TIME" => "36000000",
+                            "MENU_CACHE_USE_GROUPS" => "Y",
+                            "MENU_CACHE_GET_VARS" => array(),
+                            "CACHE_SELECTED_ITEMS" => "N",
+                            "MAX_LEVEL" => "1",
+                            "USE_EXT" => "Y",
+                            "DELAY" => "N",
+                            "ALLOW_MULTI_SELECT" => "N"
+                        ),
+                        false
+                    ); ?>
+                </div>
+                <div class="col-12 col-md-auto info">
+                    <div class="info__item cities">
+                        <button type="button" class="info__btn" data-toggle="modal" data-target="#citiesModal"> Город
+                        </button>
+                    </div>
+                    <div class="modal fade" id="citiesModal" tabindex="-1" role="dialog"
+                         aria-labelledby="citiesModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                Города
+                            </div>
+                        </div>
+                    </div>
 
-				<div class="col-auto d-none d-md-block bx-header-personal">
-					<?$APPLICATION->IncludeComponent(
-						"bitrix:sale.basket.basket.line",
-						"bootstrap_v4",
-						array(
-							"PATH_TO_BASKET" => SITE_DIR."personal/cart/",
-							"PATH_TO_PERSONAL" => SITE_DIR."personal/",
-							"SHOW_PERSONAL_LINK" => "N",
-							"SHOW_NUM_PRODUCTS" => "Y",
-							"SHOW_TOTAL_PRICE" => "Y",
-							"SHOW_PRODUCTS" => "N",
-							"POSITION_FIXED" =>"N",
-							"SHOW_AUTHOR" => "Y",
-							"PATH_TO_REGISTER" => SITE_DIR."login/",
-							"PATH_TO_PROFILE" => SITE_DIR."personal/"
-						),
-						false,
-						array()
-					);?>
-				</div>
+                    <div class="info__item email">
+                        <a href="mailto:<? echo $arSite['EMAIL']; ?>">
+                            <? echo $arSite['EMAIL']; ?>
+                        </a>
+                    </div>
 
-				<div class="col bx-header-contact">
-					<div class="d-flex align-items-center justify-content-between justify-content-md-center flex-column flex-sm-row flex-md-column flex-lg-row">
-						<div class="p-lg-3 p-1">
-							<div class="bx-header-phone-block">
-								<i class="bx-header-phone-icon"></i>
-								<span class="bx-header-phone-number">
-									<?$APPLICATION->IncludeComponent(
-										"bitrix:main.include",
-										"",
-										array(
-											"AREA_FILE_SHOW" => "file",
-											"PATH" => SITE_DIR."include/telephone.php"
-										),
-										false
-									);?>
-								</span>
-							</div>
-						</div>
-						<div class="p-lg-3 p-1">
-							<div class="bx-header-worktime">
-								<div class="bx-worktime-title"><?=GetMessage('HEADER_WORK_TIME'); ?></div>
-								<div class="bx-worktime-schedule">
-									<?$APPLICATION->IncludeComponent(
-										"bitrix:main.include",
-										"",
-										array(
-											"AREA_FILE_SHOW" => "file",
-											"PATH" => SITE_DIR."include/schedule.php"
-										),
-										false
-									);?>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--endregion-->
-
-			<!--region menu-->
-			<div class="row mb-4 d-none d-md-block">
-				<div class="col">
-					<?$APPLICATION->IncludeComponent(
-						"bitrix:menu",
-						"bootstrap_v4",
-						array(
-							"ROOT_MENU_TYPE" => "left",
-							"MENU_CACHE_TYPE" => "A",
-							"MENU_CACHE_TIME" => "36000000",
-							"MENU_CACHE_USE_GROUPS" => "Y",
-							"MENU_THEME" => "site",
-							"CACHE_SELECTED_ITEMS" => "N",
-							"MENU_CACHE_GET_VARS" => array(),
-							"MAX_LEVEL" => "3",
-							"CHILD_MENU_TYPE" => "left",
-							"USE_EXT" => "Y",
-							"DELAY" => "N",
-							"ALLOW_MULTI_SELECT" => "N",
-							"COMPONENT_TEMPLATE" => "bootstrap_v4"
-						),
-						false
-					);?>
-				</div>
-			</div>
-			<!--endregion-->
-
-			<!--region search.title -->
-			<?if ($curPage != SITE_DIR."index.php"):?>
-				<div class="row mb-4">
-					<div class="col">
-						<?$APPLICATION->IncludeComponent(
-	"bitrix:search.title", 
-	"bootstrap_v4", 
+                    <div class="info__item search">
+                        <button type="button" class="info__btn" data-toggle="modal" data-target="#searchModal"> Поиск
+                        </button>
+                    </div>
+                    <div class="modal fade fade-search" id="searchModal" tabindex="-1" role="dialog"
+                         aria-labelledby="searchModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-search" role="document">
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="row header__search-row">
+                                        <div class="col-12 col-md-8 header__search-wrap">
+                                            <? $APPLICATION->IncludeComponent(
+	"bitrix:search.form", 
+	"header_search", 
 	array(
-		"NUM_CATEGORIES" => "1",
-		"TOP_COUNT" => "5",
-		"CHECK_DATES" => "N",
-		"SHOW_OTHERS" => "N",
-		"PAGE" => SITE_DIR."catalog/",
-		"CATEGORY_0_TITLE" => GetMessage("SEARCH_GOODS"),
-		"CATEGORY_0" => array(
-			0 => "iblock_catalog",
-		),
-		"CATEGORY_0_iblock_catalog" => array(
-			0 => "all",
-		),
-		"CATEGORY_OTHERS_TITLE" => GetMessage("SEARCH_OTHER"),
-		"SHOW_INPUT" => "Y",
-		"INPUT_ID" => "title-search-input",
-		"CONTAINER_ID" => "search",
-		"PRICE_CODE" => array(
-			0 => "BASE",
-		),
-		"SHOW_PREVIEW" => "Y",
-		"PREVIEW_WIDTH" => "75",
-		"PREVIEW_HEIGHT" => "75",
-		"CONVERT_CURRENCY" => "Y",
-		"COMPONENT_TEMPLATE" => "bootstrap_v4",
-		"ORDER" => "date",
-		"USE_LANGUAGE_GUESS" => "Y",
-		"TEMPLATE_THEME" => "red",
-		"PRICE_VAT_INCLUDE" => "Y",
-		"PREVIEW_TRUNCATE_LEN" => "",
-		"CURRENCY_ID" => "RUB"
+		"USE_SUGGEST" => "Y",
+		"COMPONENT_TEMPLATE" => "header_search",
+		"PAGE" => "#SITE_DIR#search/index.php"
 	),
 	false
-);?>
-					</div>
-				</div>
-			<?endif?>
-			<!--endregion-->
+); ?>
+                                        </div>
+                                        <div class="col-12 col-md-auto">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-			<!--region breadcrumb-->
-			<?if ($curPage != SITE_DIR."index.php"):?>
-				<div class="row mb-4">
-					<div class="col" id="navigation">
-						<?$APPLICATION->IncludeComponent(
-							"bitrix:breadcrumb",
-							"universal",
-							array(
-								"START_FROM" => "0",
-								"PATH" => "",
-								"SITE_ID" => "-"
-							),
-							false,
-							Array('HIDE_ICONS' => 'Y')
-						);?>
-					</div>
-				</div>
-				<h1 id="pagetitle"><?$APPLICATION->ShowTitle(false);?></h1>
-			<?endif?>
-			<!--endregion-->
-		</div>
-	</header>
+                    <div class="info__item personal">
+                        <button type="button" class="info__btn" data-toggle="modal" data-target="#signInModal"> Войти
+                        </button>
+                    </div>
 
-	<div class="workarea">
-		<div class="container bx-content-section">
-			<div class="row">
-			<?$needSidebar = preg_match("~^".SITE_DIR."(catalog|personal\/cart|personal\/order\/make)/~", $curPage);?>
-				<div class="bx-content <?=($needSidebar ? "col" : "col-md-9 col-sm-8")?>">
+                    <div class="modal fade" id="signInModal" tabindex="-1" role="dialog"
+                         aria-labelledby="signInModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="container">
+                                    <button type="button" class="close close__auth" data-dismiss="modal"
+                                            aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <? $APPLICATION->IncludeComponent(
+                                        "bitrix:system.auth.form",
+                                        "custom",
+                                        array(
+                                            "COMPONENT_TEMPLATE" => "custom",
+                                            "REGISTER_URL" => "",
+                                            "FORGOT_PASSWORD_URL" => "",
+                                            "PROFILE_URL" => "",
+                                            "SHOW_ERRORS" => "Y"
+                                        ),
+                                        false
+                                    ); ?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row pt-0 pt-md-3 mb-3 align-items-center header__row-cat">
+                <div class="col-12 col-md-auto header__logo">
+                    <a class="bx-logo-block" href="<?= SITE_DIR ?>">
+                        <? $APPLICATION->IncludeComponent(
+                            "bitrix:main.include",
+                            "",
+                            array(
+                                "AREA_FILE_SHOW" => "file",
+                                "PATH" => SITE_DIR . "include/company_logo.php"),
+                            false
+                        ); ?>
+                    </a>
+                </div>
+                <div class="col-12 col-md-auto">
+                    <? $APPLICATION->IncludeComponent(
+                        "bitrix:menu",
+                        "catalog_menu",
+                        array(
+                            "ROOT_MENU_TYPE" => "catalog",
+                            "MENU_CACHE_TYPE" => "A",
+                            "MENU_CACHE_TIME" => "36000000",
+                            "MENU_CACHE_USE_GROUPS" => "Y",
+                            "MENU_CACHE_GET_VARS" => array(),
+                            "CACHE_SELECTED_ITEMS" => "N",
+                            "MAX_LEVEL" => "3",
+                            "USE_EXT" => "Y",
+                            "DELAY" => "N",
+                            "ALLOW_MULTI_SELECT" => "N",
+                            "COMPONENT_TEMPLATE" => "tree",
+                            "CHILD_MENU_TYPE" => "sub"
+                        ),
+                        false
+                    ); ?>
+                </div>
+                <div class="col-12 col-md-auto header__call">
+                    <div class="header__call-tel">
+                        <? $APPLICATION->IncludeComponent(
+                            "bitrix:main.include",
+                            "",
+                            array(
+                                "AREA_FILE_SHOW" => "file",
+                                "PATH" => SITE_DIR . "include/company_tel.php"),
+                            false
+                        ); ?>
+                        <? $APPLICATION->IncludeComponent(
+                            "bitrix:main.include",
+                            "",
+                            array(
+                                "AREA_FILE_SHOW" => "file",
+                                "PATH" => SITE_DIR . "include/get_call.php"),
+                            false
+                        ); ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="workarea">

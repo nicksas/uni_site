@@ -21,11 +21,7 @@ $curPage = $APPLICATION->GetCurPage(true);
     <? $APPLICATION->ShowHead(); ?>
     <?
     use Bitrix\Main\Page\Asset;
-
-    Asset::getInstance()->addCss("https://unpkg.com/swiper/swiper-bundle.css");
-    Asset::getInstance()->addCss("https://unpkg.com/swiper/swiper-bundle.min.css");
-    Asset::getInstance()->addJs("https://unpkg.com/swiper/swiper-bundle.js");
-    Asset::getInstance()->addJs("https://unpkg.com/swiper/swiper-bundle.min.js");
+    \uni\CurrentAsset::setProjectAsset();
     ?>
 </head>
 <body class="bx-background-image bx-theme-<?= $theme ?>" <? $APPLICATION->ShowProperty("backgroundImage"); ?>>

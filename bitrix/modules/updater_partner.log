@@ -166,3 +166,1282 @@
 2020-12-30 12:49:15 -  - exec CUpdateClientPartner::__CollectRequestData
 2020-12-30 12:49:15 -  - exec CUpdateClientPartner::GetHTTPPage
 2020-12-30 12:49:16 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-12 15:02:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-12 15:02:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-12 15:02:33 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-12 15:02:33 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-12 15:02:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-12 15:02:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-12 15:02:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-12 15:02:34 -  - TIME GetUpdatesList(request) 0.376 sec
+2021-01-12 15:02:34 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-12 15:02:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-12 15:02:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-12 15:02:34 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 15:04:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 15:04:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 15:04:04 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 15:04:04 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-13 15:04:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 15:04:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 15:04:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 15:04:05 -  - TIME GetUpdatesList(request) 0.334 sec
+2021-01-13 15:04:05 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 15:04:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 15:04:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 15:04:05 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:21 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-13 18:17:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Csprint.migration&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:22 -  - TIME GetUpdatesList(request) 0.532 sec
+2021-01-13 18:17:22 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:32 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:32 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:32 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:33 -  - TIME LoadModulesUpdates(request) 0.29 sec
+2021-01-13 18:17:33 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:33 - S - STEP
+2021-01-13 18:17:33 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:17:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:34 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:34 -  - loadFile
+2021-01-13 18:17:34 - U - RETURN
+2021-01-13 18:17:34 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:17:34 -  - TIME UnGzipArchive 0.019 sec
+2021-01-13 18:17:34 -  - TIME UpdateStepModules 0.042 sec
+2021-01-13 18:17:34 - UPD_SUCCESS - Updated: sprint.migration
+2021-01-13 18:17:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:35 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:35 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.0.2%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:35 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:36 -  - TIME LoadModulesUpdates(request) 0.353 sec
+2021-01-13 18:17:36 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:36 - S - STEP
+2021-01-13 18:17:36 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:17:37 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:37 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:37 -  - loadFile
+2021-01-13 18:17:37 - U - RETURN
+2021-01-13 18:17:37 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:17:37 -  - TIME UnGzipArchive 0.022 sec
+2021-01-13 18:17:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551057/sprint.migration/updater2.0.3.php'
+2021-01-13 18:17:37 -  - TIME UpdateStepModules 0.044 sec
+2021-01-13 18:17:37 - UPD_SUCCESS - Updated: sprint.migration (2.0.3)<br>Модуль миграций для CMS Битрикс ([http://www.1c-bitrix.ru/](http://www.1c-bitrix.ru/)), помогающий синхронизировать изменения между нескольким копиями бд.
+2021-01-13 18:17:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.0.3%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:39 -  - TIME LoadModulesUpdates(request) 0.368 sec
+2021-01-13 18:17:39 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:39 - S - STEP
+2021-01-13 18:17:39 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:17:40 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:40 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:40 -  - loadFile
+2021-01-13 18:17:41 - U - RETURN
+2021-01-13 18:17:41 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:17:41 -  - TIME UnGzipArchive 0.018 sec
+2021-01-13 18:17:41 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551061/sprint.migration/updater2.0.4.php'
+2021-01-13 18:17:41 -  - TIME UpdateStepModules 0.034 sec
+2021-01-13 18:17:41 - UPD_SUCCESS - Updated: sprint.migration (2.0.4)<br>Модуль миграций для CMS Битрикс ([http://www.1c-bitrix.ru/](http://www.1c-bitrix.ru/)), помогающий синхронизировать изменения между нескольким копиями бд.
+2021-01-13 18:17:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:42 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.0.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:42 -  - TIME LoadModulesUpdates(request) 0.483 sec
+2021-01-13 18:17:42 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:42 - S - STEP
+2021-01-13 18:17:42 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:17:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:44 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:44 -  - loadFile
+2021-01-13 18:17:44 - U - RETURN
+2021-01-13 18:17:44 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:17:44 -  - TIME UnGzipArchive 0.004 sec
+2021-01-13 18:17:44 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551064/sprint.migration/updater2.0.5.php'
+2021-01-13 18:17:44 -  - TIME UpdateStepModules 0.004 sec
+2021-01-13 18:17:44 - UPD_SUCCESS - Updated: sprint.migration (2.0.5)<br>Модуль миграций для CMS Битрикс ([http://www.1c-bitrix.ru/](http://www.1c-bitrix.ru/)), помогающий синхронизировать изменения между нескольким копиями бд.
+2021-01-13 18:17:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:45 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:45 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.0.5%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:45 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:45 -  - TIME LoadModulesUpdates(request) 0.288 sec
+2021-01-13 18:17:45 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:45 - S - STEP
+2021-01-13 18:17:45 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:17:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:47 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:47 -  - loadFile
+2021-01-13 18:17:47 - U - RETURN
+2021-01-13 18:17:47 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:17:47 -  - TIME UnGzipArchive 0.023 sec
+2021-01-13 18:17:47 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551067/sprint.migration/updater2.1.1.php'
+2021-01-13 18:17:47 -  - TIME UpdateStepModules 0.045 sec
+2021-01-13 18:17:47 - UPD_SUCCESS - Updated: sprint.migration (2.1.1)<br>Модуль миграций для CMS Битрикс ([http://www.1c-bitrix.ru/](http://www.1c-bitrix.ru/)), помогающий синхронизировать изменения между нескольким копиями бд. Репозиторий проекта ([https://bitbucket.org/andrey_ryabin/sprint.migration](https://bitbucket.org/andrey_ryabin/sprint.migration))
+2021-01-13 18:17:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:48 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.1.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:48 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:48 -  - TIME LoadModulesUpdates(request) 0.281 sec
+2021-01-13 18:17:48 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:48 - S - STEP
+2021-01-13 18:17:48 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:17:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:50 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:50 -  - loadFile
+2021-01-13 18:17:50 - U - RETURN
+2021-01-13 18:17:50 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:17:50 -  - TIME UnGzipArchive 0.021 sec
+2021-01-13 18:17:50 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551070/sprint.migration/updater2.2.1.php'
+2021-01-13 18:17:50 -  - TIME UpdateStepModules 0.04 sec
+2021-01-13 18:17:50 - UPD_SUCCESS - Updated: sprint.migration (2.2.1)<br>https://bitbucket.org/andrey_ryabin/sprint.migration/commits/tag/2.2.1 
+2021-01-13 18:17:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:51 -  - TIME LoadModulesUpdates(request) 0.27 sec
+2021-01-13 18:17:51 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:51 - S - STEP
+2021-01-13 18:17:51 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:17:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:53 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:53 -  - loadFile
+2021-01-13 18:17:53 - U - RETURN
+2021-01-13 18:17:53 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:17:53 -  - TIME UnGzipArchive 0.02 sec
+2021-01-13 18:17:53 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551073/sprint.migration/updater2.2.2.php'
+2021-01-13 18:17:53 -  - TIME UpdateStepModules 0.037 sec
+2021-01-13 18:17:53 - UPD_SUCCESS - Updated: sprint.migration (2.2.2)<br>Модуль миграций для CMS Битрикс ([http://www.1c-bitrix.ru/](http://www.1c-bitrix.ru/)), помогающий синхронизировать изменения между нескольким копиями бд. Репозиторий проекта ([https://bitbucket.org/andrey_ryabin/sprint.migration](https://bitbucket.org/andrey_ryabin/sprint.migration))
+2021-01-13 18:17:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.2%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:54 -  - TIME LoadModulesUpdates(request) 0.293 sec
+2021-01-13 18:17:54 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:54 - S - STEP
+2021-01-13 18:17:54 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:17:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:56 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:56 -  - loadFile
+2021-01-13 18:17:56 - U - RETURN
+2021-01-13 18:17:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:17:56 -  - TIME UnGzipArchive 0.026 sec
+2021-01-13 18:17:56 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551076/sprint.migration/updater2.2.3.php'
+2021-01-13 18:17:56 -  - TIME UpdateStepModules 0.052 sec
+2021-01-13 18:17:56 - UPD_SUCCESS - Updated: sprint.migration (2.2.3)<br>1) Интеграция с composer installers <br> 2) Новые команды в консоли <br>
+2021-01-13 18:17:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:17:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.3%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:17:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:17:57 -  - TIME LoadModulesUpdates(request) 0.288 sec
+2021-01-13 18:17:57 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:57 - S - STEP
+2021-01-13 18:17:57 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:17:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:17:59 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:17:59 -  - loadFile
+2021-01-13 18:17:59 - U - RETURN
+2021-01-13 18:17:59 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:17:59 -  - TIME UnGzipArchive 0.025 sec
+2021-01-13 18:17:59 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551079/sprint.migration/updater2.2.4.php'
+2021-01-13 18:17:59 -  - TIME UpdateStepModules 0.05 sec
+2021-01-13 18:17:59 - UPD_SUCCESS - Updated: sprint.migration (2.2.4)<br>1) Кодировка легенды в админке <br> 2) Добавлена новая документация в README <br> 3) Добавлены новые команды для консольного режима <br>
+2021-01-13 18:18:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:01 -  - TIME LoadModulesUpdates(request) 0.278 sec
+2021-01-13 18:18:01 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:01 - S - STEP
+2021-01-13 18:18:01 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:02 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:02 -  - loadFile
+2021-01-13 18:18:02 - U - RETURN
+2021-01-13 18:18:02 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:02 -  - TIME UnGzipArchive 0.032 sec
+2021-01-13 18:18:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551082/sprint.migration/updater2.2.5.php'
+2021-01-13 18:18:02 -  - TIME UpdateStepModules 0.067 sec
+2021-01-13 18:18:02 - UPD_SUCCESS - Updated: sprint.migration (2.2.5)<br>1) Упрощение кода миграций за счет исключений в хелперах<br> 2) Добавлена новая документация в README<br>
+2021-01-13 18:18:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.5%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:04 -  - TIME LoadModulesUpdates(request) 0.289 sec
+2021-01-13 18:18:04 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:04 - S - STEP
+2021-01-13 18:18:04 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:05 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:05 -  - loadFile
+2021-01-13 18:18:05 - U - RETURN
+2021-01-13 18:18:05 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:05 -  - TIME UnGzipArchive 0.003 sec
+2021-01-13 18:18:05 -  - TIME UpdateStepModules 0.004 sec
+2021-01-13 18:18:05 - UPD_SUCCESS - Updated: sprint.migration (2.2.6)<br>1) Поправлены языковые файлы 
+2021-01-13 18:18:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:06 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:06 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.6%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:06 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:07 -  - TIME LoadModulesUpdates(request) 0.304 sec
+2021-01-13 18:18:07 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:07 - S - STEP
+2021-01-13 18:18:07 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:08 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:08 -  - loadFile
+2021-01-13 18:18:08 - U - RETURN
+2021-01-13 18:18:08 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:08 -  - TIME UnGzipArchive 0.005 sec
+2021-01-13 18:18:08 -  - TIME UpdateStepModules 0.009 sec
+2021-01-13 18:18:08 - UPD_SUCCESS - Updated: sprint.migration (2.2.7)<br>1) Исправления в хелперах 
+2021-01-13 18:18:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:09 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:09 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.7%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:09 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:09 -  - TIME LoadModulesUpdates(request) 0.267 sec
+2021-01-13 18:18:09 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:09 - S - STEP
+2021-01-13 18:18:09 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:11 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:11 -  - loadFile
+2021-01-13 18:18:11 - U - RETURN
+2021-01-13 18:18:11 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:11 -  - TIME UnGzipArchive 0.005 sec
+2021-01-13 18:18:11 -  - TIME UpdateStepModules 0.009 sec
+2021-01-13 18:18:11 - UPD_SUCCESS - Updated: sprint.migration (2.2.8)<br>Поправлены стили и дополнен метод выводящий прогресс-бар для старой битриксовой админки версии 10.0.4 
+2021-01-13 18:18:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:12 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:12 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.8%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:12 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:12 -  - TIME LoadModulesUpdates(request) 0.281 sec
+2021-01-13 18:18:12 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:12 - S - STEP
+2021-01-13 18:18:12 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:14 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:14 -  - loadFile
+2021-01-13 18:18:14 - U - RETURN
+2021-01-13 18:18:14 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:14 -  - TIME UnGzipArchive 0.005 sec
+2021-01-13 18:18:14 -  - TIME UpdateStepModules 0.006 sec
+2021-01-13 18:18:14 - UPD_SUCCESS - Updated: sprint.migration (2.2.9)<br>1) Исправления в хелпере UserTypeEntityHelper (Issue #11) 
+2021-01-13 18:18:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.9%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:15 -  - TIME LoadModulesUpdates(request) 0.29 sec
+2021-01-13 18:18:15 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:15 - S - STEP
+2021-01-13 18:18:15 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:17 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:17 -  - loadFile
+2021-01-13 18:18:17 - U - RETURN
+2021-01-13 18:18:17 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:17 -  - TIME UnGzipArchive 0.011 sec
+2021-01-13 18:18:17 -  - TIME UpdateStepModules 0.018 sec
+2021-01-13 18:18:17 - UPD_SUCCESS - Updated: sprint.migration (2.2.11)<br>1) Доработки в хелпере UserGroupHelper (Issue #12, Issue #13)
+2021-01-13 18:18:18 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:18 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:18 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.11%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:18 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:18 -  - TIME LoadModulesUpdates(request) 0.293 sec
+2021-01-13 18:18:18 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:18 - S - STEP
+2021-01-13 18:18:18 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:20 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:20 -  - loadFile
+2021-01-13 18:18:20 - U - RETURN
+2021-01-13 18:18:20 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:20 -  - TIME UnGzipArchive 0.022 sec
+2021-01-13 18:18:20 -  - TIME UpdateStepModules 0.047 sec
+2021-01-13 18:18:20 - UPD_SUCCESS - Updated: sprint.migration (2.2.12)<br>1) Антон Тузлуков: Наименования файлов миграций (Issue #14), Проверка по типу инфоблока (Issue #15)<br> 2) Alexandr Kuznecov: Сделать фоллбэк для удаленных методов getSitesIfExists() getLangsIfExists()<br> 3) Блокировка кнопок при выполнении миграций в админке<br> 4) Доработки интерфейса в админке и консоли<br>
+2021-01-13 18:18:21 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:21 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:21 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.2.12%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:21 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:21 -  - TIME LoadModulesUpdates(request) 0.256 sec
+2021-01-13 18:18:21 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:21 - S - STEP
+2021-01-13 18:18:21 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:23 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:23 -  - loadFile
+2021-01-13 18:18:23 - U - RETURN
+2021-01-13 18:18:23 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:23 -  - TIME UnGzipArchive 0.01 sec
+2021-01-13 18:18:23 -  - TIME UpdateStepModules 0.017 sec
+2021-01-13 18:18:23 - UPD_SUCCESS - Updated: sprint.migration (2.3.1)<br>1) Безопасное отображение описания миграции в админке и консоли<br> 2) Опция в конфиге tracker_task_url - позволяет делать ссылки на трекер задач по шаблону #номер<br> 3) Доработки интерфейса в админке и консоли<br>
+2021-01-13 18:18:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:24 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.3.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:24 -  - TIME LoadModulesUpdates(request) 0.259 sec
+2021-01-13 18:18:24 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:24 - S - STEP
+2021-01-13 18:18:24 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:26 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:26 -  - loadFile
+2021-01-13 18:18:26 - U - RETURN
+2021-01-13 18:18:26 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:26 -  - TIME UnGzipArchive 0.027 sec
+2021-01-13 18:18:26 -  - TIME UpdateStepModules 0.056 sec
+2021-01-13 18:18:26 - UPD_SUCCESS - Updated: sprint.migration (2.3.2)<br>1) Правка добавления типа инфоблока pull-requests №5 (автор Антон Тузлуков)<br> 2) Метод addSectionIfNotExists pull-requests №4 (автор Антон Тузлуков)<br> 3) Добавил хелпер для настройки форм добавления элементов pull-requests №2 (автор Антон Тузлуков)<br> 4) Удаление экранирующих слешей при просмотре описаний миграций Issue #17 (автор XOlegator)<br> 5) Не хватает функции deleteIblockTypeIfExists Issue #16 (автор Аноним)<br> 6) Добавить методы работы с секциями Issue #10<br> 7) Добавлен вывод сообщений от миграций в админку (вкладка логирование)<br> 8) Классы помощники сгруппированы в менеджер, пример: $helper = new HelperManager(); $iblockId = $helper->Iblock()->getIblockId(\'code\');<br>
+2021-01-13 18:18:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.3.2%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:27 -  - TIME LoadModulesUpdates(request) 0.266 sec
+2021-01-13 18:18:27 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:27 - S - STEP
+2021-01-13 18:18:27 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:29 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:29 -  - loadFile
+2021-01-13 18:18:29 - U - RETURN
+2021-01-13 18:18:29 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:29 -  - TIME UnGzipArchive 0.025 sec
+2021-01-13 18:18:29 -  - TIME UpdateStepModules 0.048 sec
+2021-01-13 18:18:29 - UPD_SUCCESS - Updated: sprint.migration (2.3.3)<br>1) Поиск миграций по названию и описанию в админке и консоли, флаг --search=text<br> 2) Исправление отображения вывода в консоли для битрикса в кодировке windows-1251<br>
+2021-01-13 18:18:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:30 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.3.3%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:30 -  - TIME LoadModulesUpdates(request) 0.298 sec
+2021-01-13 18:18:30 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:30 - S - STEP
+2021-01-13 18:18:30 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:32 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:32 -  - loadFile
+2021-01-13 18:18:32 - U - RETURN
+2021-01-13 18:18:32 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:32 -  - TIME UnGzipArchive 0.006 sec
+2021-01-13 18:18:32 -  - TIME UpdateStepModules 0.01 sec
+2021-01-13 18:18:32 - UPD_SUCCESS - Updated: sprint.migration (2.3.4)<br>1) Ошибка в IblockHelper::addProperty() Issue #22 (автор Анатолий Солдатов)
+2021-01-13 18:18:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.3.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:33 -  - TIME LoadModulesUpdates(request) 0.257 sec
+2021-01-13 18:18:33 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:33 - S - STEP
+2021-01-13 18:18:33 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:35 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:35 -  - loadFile
+2021-01-13 18:18:35 - U - RETURN
+2021-01-13 18:18:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:35 -  - TIME UnGzipArchive 0.026 sec
+2021-01-13 18:18:35 -  - TIME UpdateStepModules 0.053 sec
+2021-01-13 18:18:35 - UPD_SUCCESS - Updated: sprint.migration (2.3.5)<br>1) Дополнительные конфиги для модулей Issue #20 (автор Никита Морковкин)<br> 2) Добавить возможность работы с HL блоками Issue #21 (автор Sergey Polyakov)<br>
+2021-01-13 18:18:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.3.5%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:36 -  - TIME LoadModulesUpdates(request) 0.28 sec
+2021-01-13 18:18:36 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:36 - S - STEP
+2021-01-13 18:18:36 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:38 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:38 -  - loadFile
+2021-01-13 18:18:38 - U - RETURN
+2021-01-13 18:18:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:38 -  - TIME UnGzipArchive 0.013 sec
+2021-01-13 18:18:38 -  - TIME UpdateStepModules 0.02 sec
+2021-01-13 18:18:38 - UPD_SUCCESS - Updated: sprint.migration (2.3.6)<br>1) Отмечаем миграцию как установленную без выполнения Issue #23 (автор Егор Ковязин)<br> 2) Управление правами доступа для модуля миграций Issue #24 (автор Sergii Martynovych)<br>
+2021-01-13 18:18:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.3.6%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:40 -  - TIME LoadModulesUpdates(request) 0.92 sec
+2021-01-13 18:18:40 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:40 - S - STEP
+2021-01-13 18:18:40 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:41 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:41 -  - loadFile
+2021-01-13 18:18:41 - U - RETURN
+2021-01-13 18:18:41 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:41 -  - TIME UnGzipArchive 0.011 sec
+2021-01-13 18:18:41 -  - TIME UpdateStepModules 0.019 sec
+2021-01-13 18:18:41 - UPD_SUCCESS - Updated: sprint.migration (2.3.8)<br>1) Команда для удаления неизвестных миграций Issue #25 (автор Marat Bakirov)
+2021-01-13 18:18:43 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:43 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.3.8%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:43 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:43 -  - TIME LoadModulesUpdates(request) 0.262 sec
+2021-01-13 18:18:43 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:43 - S - STEP
+2021-01-13 18:18:43 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:44 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:44 -  - loadFile
+2021-01-13 18:18:44 - U - RETURN
+2021-01-13 18:18:44 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:44 -  - TIME UnGzipArchive 0.006 sec
+2021-01-13 18:18:44 -  - TIME UpdateStepModules 0.009 sec
+2021-01-13 18:18:44 - UPD_SUCCESS - Updated: sprint.migration (2.3.9)<br>1) Расширить функционал хелпера AdminIblock Issue #26 (автор Dmitriy Tretyakov)
+2021-01-13 18:18:46 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:46 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.3.9%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:46 -  - TIME LoadModulesUpdates(request) 0.256 sec
+2021-01-13 18:18:46 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:46 - S - STEP
+2021-01-13 18:18:46 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:47 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:47 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:47 -  - loadFile
+2021-01-13 18:18:47 - U - RETURN
+2021-01-13 18:18:47 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:47 -  - TIME UnGzipArchive 0.014 sec
+2021-01-13 18:18:47 -  - TIME UpdateStepModules 0.024 sec
+2021-01-13 18:18:47 - UPD_SUCCESS - Updated: sprint.migration (2.4.1)<br>1) Добавлена возможность добавлять и удалять по несколько user fields (автор Andrew Kopylov) <br/> 2) Сохранение данных по миграции issue #28 (автор anton-citrus-soft NA) <br/> 3) Хелпер для сайтов issue #27 (автор Dmitriy Tretyakov ) <br/> 
+2021-01-13 18:18:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:48 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:49 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.4.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:49 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:49 -  - TIME LoadModulesUpdates(request) 0.278 sec
+2021-01-13 18:18:49 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:49 - S - STEP
+2021-01-13 18:18:49 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:50 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:50 -  - loadFile
+2021-01-13 18:18:50 - U - RETURN
+2021-01-13 18:18:50 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:50 -  - TIME UnGzipArchive 0.021 sec
+2021-01-13 18:18:50 -  - TIME UpdateStepModules 0.041 sec
+2021-01-13 18:18:50 - UPD_SUCCESS - Updated: sprint.migration (2.4.2)<br>1) Улучшение интерфейса в админке, консоли <br/> 2) Алиасы для команд list - ls, create - add <br/> 3) Конструкторы миграций по шаблонам <br/> 4) Создание миграций из текущего состояния инфоблока #30 (автор Dmitriy Tretyakov ) <br/> 
+2021-01-13 18:18:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.4.2%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:52 -  - TIME LoadModulesUpdates(request) 0.355 sec
+2021-01-13 18:18:52 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:52 - S - STEP
+2021-01-13 18:18:52 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:53 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:53 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:53 -  - loadFile
+2021-01-13 18:18:53 - U - RETURN
+2021-01-13 18:18:53 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:53 -  - TIME UnGzipArchive 0.017 sec
+2021-01-13 18:18:53 -  - TIME UpdateStepModules 0.033 sec
+2021-01-13 18:18:53 - UPD_SUCCESS - Updated: sprint.migration (2.4.3)<br>1) После вывода ошибки в консоль завершаться с ненулевым статусом (автор Web Architect)<br/> 2) Улучшено отображение таблиц в консоли <br/> 3) Добавлен параметр отвечающий за остановку выполнения миграций при появлении ошибок <br/> 4) Удалена команда status из консоли, бесполезная<br/>
+2021-01-13 18:18:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.4.3%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:55 -  - TIME LoadModulesUpdates(request) 0.297 sec
+2021-01-13 18:18:55 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:55 - S - STEP
+2021-01-13 18:18:55 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:56 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:56 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:56 -  - loadFile
+2021-01-13 18:18:56 - U - RETURN
+2021-01-13 18:18:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:18:56 -  - TIME UnGzipArchive 0.016 sec
+2021-01-13 18:18:56 -  - TIME UpdateStepModules 0.029 sec
+2021-01-13 18:18:57 - UPD_SUCCESS - Updated: sprint.migration (2.4.4)<br>1) Создание миграции для higload-блока <br/> 2) Параметр stop_on_errors должен принимать значения true/false а не yes/no (автор Web Architect)<br/> 3) Улучшен формат вывода ошибок, код, сообщение и stack-trace при возникновении исключений (автор Web Architect)<br/> 4) Если упала одна миграция, а остальные выполнились, то даже в этом случае возвращаемый код обязан быть ненулевым (автор Web Architect)<br/>
+2021-01-13 18:18:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:58 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:18:58 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.4.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:18:58 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:18:58 -  - TIME LoadModulesUpdates(request) 0.294 sec
+2021-01-13 18:18:58 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:58 - S - STEP
+2021-01-13 18:18:58 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:18:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:18:59 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:18:59 -  - loadFile
+2021-01-13 18:19:00 - U - RETURN
+2021-01-13 18:19:00 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:00 -  - TIME UnGzipArchive 0.02 sec
+2021-01-13 18:19:00 -  - TIME UpdateStepModules 0.034 sec
+2021-01-13 18:19:00 - UPD_SUCCESS - Updated: sprint.migration (2.5.1)<br>1) Настройка в конфиге для скрытия сервиса в админке (автор Митин Вадим)<br/> 2) Создание миграции для пользовательских полей <br/> 3) Авторизация под админом в консоли <br/> 4) Убрана проверка доступа при получении списка элементов и секций в хелпере IblockHelper <br/> 5) Убран лимит у команд up и down в консоли, добавлена документация <br/>
+2021-01-13 18:19:01 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:01 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:01 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.5.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:01 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:01 -  - TIME LoadModulesUpdates(request) 0.361 sec
+2021-01-13 18:19:01 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:01 - S - STEP
+2021-01-13 18:19:01 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:02 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:02 -  - loadFile
+2021-01-13 18:19:03 - U - RETURN
+2021-01-13 18:19:03 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:03 -  - TIME UnGzipArchive 0.01 sec
+2021-01-13 18:19:03 -  - TIME UpdateStepModules 0.015 sec
+2021-01-13 18:19:03 - UPD_SUCCESS - Updated: sprint.migration (2.5.2)<br>1) Поправил ошибку при которой всегда создавалась дефолтная директория для миграций, даже если задана другая <br/> 2) При создании миграции для инфоблока, в свойства типа список не мигрируют значения Issue #35 <br/> 
+2021-01-13 18:19:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.5.2%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:04 -  - TIME LoadModulesUpdates(request) 0.333 sec
+2021-01-13 18:19:04 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:04 - S - STEP
+2021-01-13 18:19:04 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:06 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:06 -  - loadFile
+2021-01-13 18:19:06 - U - RETURN
+2021-01-13 18:19:06 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:06 -  - TIME UnGzipArchive 0.01 sec
+2021-01-13 18:19:06 -  - TIME UpdateStepModules 0.015 sec
+2021-01-13 18:19:06 - UPD_SUCCESS - Updated: sprint.migration (2.5.3)<br>1) Добавлен метод isVersionEnabled() в классе миграции, по которому может фильтроваться и выполняться список миграций (автор Игорь Пинчук) <br/> 2) Добавлен параметр в конфиге version_filter - массив по которому может фильтроваться и выполняться список миграций <br/> 
+2021-01-13 18:19:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.5.3%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:07 -  - TIME LoadModulesUpdates(request) 0.261 sec
+2021-01-13 18:19:07 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:07 - S - STEP
+2021-01-13 18:19:07 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:09 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:09 -  - loadFile
+2021-01-13 18:19:09 - U - RETURN
+2021-01-13 18:19:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:09 -  - TIME UnGzipArchive 0.006 sec
+2021-01-13 18:19:09 -  - TIME UpdateStepModules 0.01 sec
+2021-01-13 18:19:09 - UPD_SUCCESS - Updated: sprint.migration (2.5.5)<br>1) Добавлены методы в IblockHelper <br/> 2) Исправлены опечатки в описаниях (автор ildar r. khasanshin) <br/> 
+2021-01-13 18:19:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.5.5%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:10 -  - TIME LoadModulesUpdates(request) 0.255 sec
+2021-01-13 18:19:10 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:10 - S - STEP
+2021-01-13 18:19:10 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:11 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:11 -  - loadFile
+2021-01-13 18:19:12 - U - RETURN
+2021-01-13 18:19:12 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:12 -  - TIME UnGzipArchive 0.016 sec
+2021-01-13 18:19:12 -  - TIME UpdateStepModules 0.034 sec
+2021-01-13 18:19:12 - UPD_SUCCESS - Updated: sprint.migration (2.5.8)<br>1) Выбор инфоблока из выпадающего списка (автор Max Lyaptsev) <br/> 2) Миграция свойств инфоблока (автор Max Lyaptsev) <br/> 
+2021-01-13 18:19:13 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:13 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:13 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.5.8%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:13 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:13 -  - TIME LoadModulesUpdates(request) 0.246 sec
+2021-01-13 18:19:13 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:13 - S - STEP
+2021-01-13 18:19:13 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:14 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:14 -  - loadFile
+2021-01-13 18:19:15 - U - RETURN
+2021-01-13 18:19:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:15 -  - TIME UnGzipArchive 0.014 sec
+2021-01-13 18:19:15 -  - TIME UpdateStepModules 0.024 sec
+2021-01-13 18:19:15 - UPD_SUCCESS - Updated: sprint.migration (2.6.1)<br>1) Каждая конфигурация создает пункт меню в админке <br/> 2) Запуск миграций из консоли устанавливает модуль если он не был установлен
+2021-01-13 18:19:16 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:16 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:16 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.6.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:16 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:16 -  - TIME LoadModulesUpdates(request) 0.257 sec
+2021-01-13 18:19:16 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:16 - S - STEP
+2021-01-13 18:19:16 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:17 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:17 -  - loadFile
+2021-01-13 18:19:18 - U - RETURN
+2021-01-13 18:19:18 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:18 -  - TIME UnGzipArchive 0.048 sec
+2021-01-13 18:19:18 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551158/sprint.migration/updater2.7.3.php'
+2021-01-13 18:19:18 -  - TIME UpdateStepModules 0.09 sec
+2021-01-13 18:19:18 - UPD_SUCCESS - Updated: sprint.migration (2.7.3)<br>1) Доработка генерации миграции для привязки к элементу инфоблока (автор Maxim Lyaptsev) <br/> 2) Админка миграций перенесена из Сервисов в Настройки <br/> 3) Улучшены конструкторы: \"Создать миграцию для инфоблока\" <br/> \"Создать миграцию для highload-блока\"<br/> \"Создать миграцию для пользовательских полей\"<br/> 4) Добавлен метод isBuilderEnabled для конструкторов миграций, по которому определяется доступен ли конструктор для запуска или нет <br/>
+2021-01-13 18:19:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:19 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:19 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.7.3%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:19 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:19 -  - TIME LoadModulesUpdates(request) 0.242 sec
+2021-01-13 18:19:19 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:19 - S - STEP
+2021-01-13 18:19:19 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:20 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:20 -  - loadFile
+2021-01-13 18:19:21 - U - RETURN
+2021-01-13 18:19:21 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:21 -  - TIME UnGzipArchive 0.016 sec
+2021-01-13 18:19:21 -  - TIME UpdateStepModules 0.03 sec
+2021-01-13 18:19:21 - UPD_SUCCESS - Updated: sprint.migration (2.8.1)<br>1) Создание миграции для инфоблока у которых нет свойств (при включенной галочке \"Экспортировать свойства инфоблока\") (автор Евгений Пономарёв) <br/> 2) Сохранение хеша миграции для проверки менялась ли она или нет после установки <br/> 3) Отказ от mssql<br/> 
+2021-01-13 18:19:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:22 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.8.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:22 -  - TIME LoadModulesUpdates(request) 0.342 sec
+2021-01-13 18:19:22 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:22 - S - STEP
+2021-01-13 18:19:22 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:24 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:24 -  - loadFile
+2021-01-13 18:19:24 - U - RETURN
+2021-01-13 18:19:24 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:24 -  - TIME UnGzipArchive 0.007 sec
+2021-01-13 18:19:24 -  - TIME UpdateStepModules 0.012 sec
+2021-01-13 18:19:24 - UPD_SUCCESS - Updated: sprint.migration (2.8.5)<br>1) Доработка метода updatePropertyIfExists, проверка связанного инфоблока <br/> 2) Кнопка Выбрать все для чекбоксов в конструкторах миграций <br/> 
+2021-01-13 18:19:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:25 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:25 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.8.5%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:25 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:25 -  - TIME LoadModulesUpdates(request) 0.261 sec
+2021-01-13 18:19:25 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:25 - S - STEP
+2021-01-13 18:19:25 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:26 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:26 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:26 -  - loadFile
+2021-01-13 18:19:27 - U - RETURN
+2021-01-13 18:19:27 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:27 -  - TIME UnGzipArchive 0.025 sec
+2021-01-13 18:19:27 -  - TIME UpdateStepModules 0.047 sec
+2021-01-13 18:19:27 - UPD_SUCCESS - Updated: sprint.migration (2.8.7)<br>1) Генерация для переноса значений e-num списков пользовательских полей (автор Матасов Олег) <br/> 2) Новая конфигурация для архивных миграций <br/> 3) Перенос миграций между конфигурациями (автор Горбунов Александр)<br/> 4) Методы save в хелперах создают или обновляет сущности, совмещая addIfNotExists и updateIfExists <br/>
+2021-01-13 18:19:28 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:28 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:28 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.8.7%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:28 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:28 -  - TIME LoadModulesUpdates(request) 0.28 sec
+2021-01-13 18:19:28 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:28 - S - STEP
+2021-01-13 18:19:28 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:30 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:30 -  - loadFile
+2021-01-13 18:19:30 - U - RETURN
+2021-01-13 18:19:30 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:30 -  - TIME UnGzipArchive 0.019 sec
+2021-01-13 18:19:30 -  - TIME UpdateStepModules 0.044 sec
+2021-01-13 18:19:30 - UPD_SUCCESS - Updated: sprint.migration (2.8.12)<br>1) Миграция групп пользователей (автор Maxim Lyaptsev)<br/> 2) Миграция для агентов <br/> 3) Создание конфигураций в админке и консоли<br/>
+2021-01-13 18:19:31 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:31 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:31 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.8.12%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:31 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:31 -  - TIME LoadModulesUpdates(request) 0.286 sec
+2021-01-13 18:19:31 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:31 - S - STEP
+2021-01-13 18:19:31 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:33 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:33 -  - loadFile
+2021-01-13 18:19:33 - U - RETURN
+2021-01-13 18:19:33 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:33 -  - TIME UnGzipArchive 0.031 sec
+2021-01-13 18:19:33 -  - TIME UpdateStepModules 0.062 sec
+2021-01-13 18:19:33 - UPD_SUCCESS - Updated: sprint.migration (2.8.16)<br>1) Создание миграций для почтовых событий <br/> 2) Миграция для вебформ (автор Stepan Rodionov)<br/> 3) Группировка конструкторов в 2 колонки <br/> 4) Удаление конфигураций <br/> 5) Скроллинг списка миграций в админке <br/>
+2021-01-13 18:19:34 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:34 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:34 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C2.8.16%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:34 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:35 -  - TIME LoadModulesUpdates(request) 0.245 sec
+2021-01-13 18:19:35 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:35 - S - STEP
+2021-01-13 18:19:35 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:36 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:36 -  - loadFile
+2021-01-13 18:19:36 - U - RETURN
+2021-01-13 18:19:36 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:36 -  - TIME UnGzipArchive 0.07 sec
+2021-01-13 18:19:36 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551176/sprint.migration/updater3.0.4.php'
+2021-01-13 18:19:36 -  - TIME UpdateStepModules 0.214 sec
+2021-01-13 18:19:36 - UPD_SUCCESS - Updated: sprint.migration (3.0.4)<br>1) Схемы данных, новый подход к обмену изменениями между копиями проекта <br/> 2) Подключен битриксовый автозагрузчик модулей, перенос классов модуля в lib/ <br/> 3) Повышение минимальной версии php до 5.4 <br/> 4) Создание миграций для настроек модулей 5) Обновление вариантов для типов полей \"список\" CIBlockPropertyEnum (автор Alexandr Kuznetsov) <br/>
+2021-01-13 18:19:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:38 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:38 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.0.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:38 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:38 -  - TIME LoadModulesUpdates(request) 0.271 sec
+2021-01-13 18:19:38 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:38 - S - STEP
+2021-01-13 18:19:38 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:39 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:39 -  - loadFile
+2021-01-13 18:19:39 - U - RETURN
+2021-01-13 18:19:39 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:39 -  - TIME UnGzipArchive 0.004 sec
+2021-01-13 18:19:39 -  - TIME UpdateStepModules 0.006 sec
+2021-01-13 18:19:39 - UPD_SUCCESS - Updated: sprint.migration (3.0.5)<br>1) При экспорте схемы она помечается как установленная <br/>
+2021-01-13 18:19:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:41 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:41 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.0.5%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:41 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:41 -  - TIME LoadModulesUpdates(request) 0.248 sec
+2021-01-13 18:19:41 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:41 - S - STEP
+2021-01-13 18:19:41 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:42 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:42 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:42 -  - loadFile
+2021-01-13 18:19:42 - U - RETURN
+2021-01-13 18:19:42 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:42 -  - TIME UnGzipArchive 0.004 sec
+2021-01-13 18:19:42 -  - TIME UpdateStepModules 0.007 sec
+2021-01-13 18:19:42 - UPD_SUCCESS - Updated: sprint.migration (3.0.7)<br>1) Корректное сохранение инфоблоков для разных сайтов (автор Сергей Волков) <br/>
+2021-01-13 18:19:43 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:43 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.0.7%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:44 -  - TIME LoadModulesUpdates(request) 0.264 sec
+2021-01-13 18:19:44 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:44 - S - STEP
+2021-01-13 18:19:44 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:45 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:45 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:45 -  - loadFile
+2021-01-13 18:19:45 - U - RETURN
+2021-01-13 18:19:45 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:45 -  - TIME UnGzipArchive 0.009 sec
+2021-01-13 18:19:45 -  - TIME UpdateStepModules 0.014 sec
+2021-01-13 18:19:45 - UPD_SUCCESS - Updated: sprint.migration (3.0.9)<br>1) Проверка на наличие модуля и в bitrix и в local (автор Макеев Илья) <br/> 2) Регистрация собственных хелперов (автор Соловов Дмитрий)<br/> 3) Схема импорта почтовых событий<br/> 4) Флаг migration_dir_absolute для указания абсолютного пути до директории миграций (автор Соловов Дмитрий)<br/>
+2021-01-13 18:19:46 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:46 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:46 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.0.9%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:46 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:47 -  - TIME LoadModulesUpdates(request) 0.262 sec
+2021-01-13 18:19:47 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:47 - S - STEP
+2021-01-13 18:19:47 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:48 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:48 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:48 -  - loadFile
+2021-01-13 18:19:48 - U - RETURN
+2021-01-13 18:19:48 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:48 -  - TIME UnGzipArchive 0.019 sec
+2021-01-13 18:19:48 -  - TIME UpdateStepModules 0.035 sec
+2021-01-13 18:19:48 - UPD_SUCCESS - Updated: sprint.migration (3.0.14)<br>1) Службы доставки для магазина (автор Сергей Грипинский) <br> 2) Отображение изменений при импорте схемы <br> 3) phpdoc для хелперов <br>
+2021-01-13 18:19:50 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:50 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:50 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.0.14%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:50 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:50 -  - TIME LoadModulesUpdates(request) 0.277 sec
+2021-01-13 18:19:50 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:50 - S - STEP
+2021-01-13 18:19:50 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:51 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:51 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:51 -  - loadFile
+2021-01-13 18:19:51 - U - RETURN
+2021-01-13 18:19:51 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:51 -  - TIME UnGzipArchive 0.004 sec
+2021-01-13 18:19:51 -  - TIME UpdateStepModules 0.005 sec
+2021-01-13 18:19:51 - UPD_SUCCESS - Updated: sprint.migration (3.0.15)<br>1) Ускорен импорт схемы инфоблоков за счет обновления свойств за один шаг <br/>
+2021-01-13 18:19:52 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:52 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:52 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.0.15%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:52 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:53 -  - TIME LoadModulesUpdates(request) 0.279 sec
+2021-01-13 18:19:53 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:53 - S - STEP
+2021-01-13 18:19:53 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:54 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:54 -  - loadFile
+2021-01-13 18:19:54 - U - RETURN
+2021-01-13 18:19:54 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:54 -  - TIME UnGzipArchive 0.005 sec
+2021-01-13 18:19:54 -  - TIME UpdateStepModules 0.005 sec
+2021-01-13 18:19:54 - UPD_SUCCESS - Updated: sprint.migration (3.0.16)<br>1) Улучшение метода AdminIblockHelper::saveElementForm для сохранения настроек форм в нескольких инфоблоках (автор) Aslanator<br/>
+2021-01-13 18:19:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:55 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:55 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.0.16%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:55 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:56 -  - TIME LoadModulesUpdates(request) 0.264 sec
+2021-01-13 18:19:56 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:56 - S - STEP
+2021-01-13 18:19:56 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:19:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:57 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:57 -  - loadFile
+2021-01-13 18:19:57 - U - RETURN
+2021-01-13 18:19:57 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:19:57 -  - TIME UnGzipArchive 0.066 sec
+2021-01-13 18:19:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551197/sprint.migration/updater3.1.2.php'
+2021-01-13 18:19:57 -  - TIME UpdateStepModules 0.13 sec
+2021-01-13 18:19:57 - UPD_SUCCESS - Updated: sprint.migration (3.1.2)<br>1) Добавлен перенос настроек полей разделов инфоблока при создании миграции <br/> 2) Консольная команда для удаления миграций (автор @webarchitect609) <br/> 3) Тегирование миграций (автор Панычев Дмитрий, Пашкевич Сергей)
+2021-01-13 18:19:59 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:19:59 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:19:59 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.1.2%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:19:59 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:19:59 -  - TIME LoadModulesUpdates(request) 0.249 sec
+2021-01-13 18:19:59 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:19:59 - S - STEP
+2021-01-13 18:19:59 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:00 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:00 -  - loadFile
+2021-01-13 18:20:00 - U - RETURN
+2021-01-13 18:20:00 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:00 -  - TIME UnGzipArchive 0.056 sec
+2021-01-13 18:20:00 -  - TIME UpdateStepModules 0.068 sec
+2021-01-13 18:20:01 - UPD_SUCCESS - Updated: sprint.migration (3.3.7)<br>1) Экспорт\\импорт настроек форм редактирования и списков <br/> 2) Добавлены методы для работы с правами групп к инфоблокам и highload-блокам <br/>
+2021-01-13 18:20:02 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:02 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:02 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.3.7%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:02 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:02 -  - TIME LoadModulesUpdates(request) 0.311 sec
+2021-01-13 18:20:02 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:02 - S - STEP
+2021-01-13 18:20:02 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:03 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:03 -  - loadFile
+2021-01-13 18:20:04 - U - RETURN
+2021-01-13 18:20:04 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:04 -  - TIME UnGzipArchive 0.013 sec
+2021-01-13 18:20:04 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551204/sprint.migration/updater3.4.2.php'
+2021-01-13 18:20:04 -  - TIME UpdateStepModules 0.03 sec
+2021-01-13 18:20:04 - UPD_SUCCESS - Updated: sprint.migration (3.4.2)<br>1) Хелпер для медиабиблиотеки <br/>
+2021-01-13 18:20:05 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:05 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:05 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.4.2%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:05 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:05 -  - TIME LoadModulesUpdates(request) 0.241 sec
+2021-01-13 18:20:05 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:05 - S - STEP
+2021-01-13 18:20:05 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:06 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:06 -  - loadFile
+2021-01-13 18:20:07 - U - RETURN
+2021-01-13 18:20:07 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:07 -  - TIME UnGzipArchive 0.007 sec
+2021-01-13 18:20:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551207/sprint.migration/updater3.4.3.php'
+2021-01-13 18:20:07 -  - TIME UpdateStepModules 0.008 sec
+2021-01-13 18:20:07 - UPD_SUCCESS - Updated: sprint.migration (3.4.3)<br>1) Группа в телеграме <a href=\"https://t-do.ru/sprint_migration_bitrix\" target=\"_blank\">https://t-do.ru/sprint_migration_bitrix</a> <br/>
+2021-01-13 18:20:08 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:08 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:08 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.4.3%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:08 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:08 -  - TIME LoadModulesUpdates(request) 0.285 sec
+2021-01-13 18:20:08 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:08 - S - STEP
+2021-01-13 18:20:08 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:09 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:09 -  - loadFile
+2021-01-13 18:20:10 - U - RETURN
+2021-01-13 18:20:10 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:10 -  - TIME UnGzipArchive 0.004 sec
+2021-01-13 18:20:10 -  - TIME UpdateStepModules 0.009 sec
+2021-01-13 18:20:10 - UPD_SUCCESS - Updated: sprint.migration (3.4.5)<br>1) Улучшения на странице настроек модуля <br/>
+2021-01-13 18:20:11 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:11 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:11 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.4.5%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:11 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:11 -  - TIME LoadModulesUpdates(request) 0.269 sec
+2021-01-13 18:20:11 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:11 - S - STEP
+2021-01-13 18:20:11 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:12 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:12 -  - loadFile
+2021-01-13 18:20:12 - U - RETURN
+2021-01-13 18:20:12 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:12 -  - TIME UnGzipArchive 0.004 sec
+2021-01-13 18:20:12 -  - TIME UpdateStepModules 0.007 sec
+2021-01-13 18:20:12 - UPD_SUCCESS - Updated: sprint.migration (3.4.6)<br>1) Исправление кодировки кнопок в схемах (автор Pavel Tupikov) <br/>
+2021-01-13 18:20:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.4.6%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:14 -  - TIME LoadModulesUpdates(request) 0.269 sec
+2021-01-13 18:20:14 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:14 - S - STEP
+2021-01-13 18:20:14 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:15 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:15 -  - loadFile
+2021-01-13 18:20:15 - U - RETURN
+2021-01-13 18:20:15 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:16 -  - TIME UnGzipArchive 0.09 sec
+2021-01-13 18:20:16 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551215/sprint.migration/updater3.6.2.php'
+2021-01-13 18:20:16 -  - TIME UpdateStepModules 0.222 sec
+2021-01-13 18:20:16 - UPD_SUCCESS - Updated: sprint.migration (3.6.2)<br>1) Версия php поднята до 5.6 <br/> 2) Перенос элементов инфоблоков (автор Евгений Семашко)<br/> 3) Перенос элементов highload-блоков (справочников) <br/> 4) Помощник для транзакций в миграциях (автор skDYLAN) <br/> 5) Перенос настроек оформления для гридов main.interface.grid <br/> 6) Убран параметр tracker_task_url в конфиге <br/>
+2021-01-13 18:20:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.6.2%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:17 -  - TIME LoadModulesUpdates(request) 0.26 sec
+2021-01-13 18:20:17 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:17 - S - STEP
+2021-01-13 18:20:17 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:19 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:19 -  - loadFile
+2021-01-13 18:20:19 - U - RETURN
+2021-01-13 18:20:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:19 -  - TIME UnGzipArchive 0.008 sec
+2021-01-13 18:20:19 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551219/sprint.migration/updater3.6.7.php'
+2021-01-13 18:20:19 -  - TIME UpdateStepModules 0.015 sec
+2021-01-13 18:20:19 - UPD_SUCCESS - Updated: sprint.migration (3.6.7)<br>1) Перенос подписей инфоблоков (автор skDYLAN) <br/> 2) Исправление при работе со схемами свойств инфоблоков (автор Konstantin Sumarokov) <br/>
+2021-01-13 18:20:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.6.7%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:20 -  - TIME LoadModulesUpdates(request) 0.262 sec
+2021-01-13 18:20:20 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:20 - S - STEP
+2021-01-13 18:20:20 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:22 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:22 -  - loadFile
+2021-01-13 18:20:22 - U - RETURN
+2021-01-13 18:20:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:22 -  - TIME UnGzipArchive 0.01 sec
+2021-01-13 18:20:22 -  - TIME UpdateStepModules 0.016 sec
+2021-01-13 18:20:22 - UPD_SUCCESS - Updated: sprint.migration (3.6.8)<br>1) Проверка создания директорий модулем (автор Konstantin Sumarokov) <br/>
+2021-01-13 18:20:24 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:24 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:24 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.6.8%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:24 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:24 -  - TIME LoadModulesUpdates(request) 0.264 sec
+2021-01-13 18:20:24 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:24 - S - STEP
+2021-01-13 18:20:24 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:25 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:25 -  - loadFile
+2021-01-13 18:20:26 - U - RETURN
+2021-01-13 18:20:26 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:26 -  - TIME UnGzipArchive 0.083 sec
+2021-01-13 18:20:26 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551226/sprint.migration/updater3.8.4.php'
+2021-01-13 18:20:26 -  - TIME UpdateStepModules 0.187 sec
+2021-01-13 18:20:26 - UPD_SUCCESS - Updated: sprint.migration (3.8.4)<br>1) Гаджет \"Сводка по миграциям\" для рабочего стола (автор Konstantin Sumarokov) <br/> 2) Перенос статусов форм (автор Konstantin Sumarokov) <br/> 3) Создание категорий инфоблока из древовидной структуры (пример examples/Version20190606000013.php) <br/> 4) Улучшения в схемах почтовых событий (автор Konstantin Sumarokov) <br/>
+2021-01-13 18:20:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.8.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:28 -  - TIME LoadModulesUpdates(request) 0.254 sec
+2021-01-13 18:20:28 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:28 - S - STEP
+2021-01-13 18:20:28 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:29 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:29 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:29 -  - loadFile
+2021-01-13 18:20:29 - U - RETURN
+2021-01-13 18:20:29 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:29 -  - TIME UnGzipArchive 0.008 sec
+2021-01-13 18:20:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551229/sprint.migration/updater3.8.5.php'
+2021-01-13 18:20:29 -  - TIME UpdateStepModules 0.013 sec
+2021-01-13 18:20:29 - UPD_SUCCESS - Updated: sprint.migration (3.8.5)<br>1) Улучшение локализации <br/>
+2021-01-13 18:20:30 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:30 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:30 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.8.5%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:30 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:30 -  - TIME LoadModulesUpdates(request) 0.257 sec
+2021-01-13 18:20:30 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:30 - S - STEP
+2021-01-13 18:20:30 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:32 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:32 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:32 -  - loadFile
+2021-01-13 18:20:32 - U - RETURN
+2021-01-13 18:20:32 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:32 -  - TIME UnGzipArchive 0.011 sec
+2021-01-13 18:20:32 -  - TIME UpdateStepModules 0.017 sec
+2021-01-13 18:20:32 - UPD_SUCCESS - Updated: sprint.migration (3.8.6)<br>1) Улучшение шаблонов миграций (автор Константин Карнаухов) <br/>
+2021-01-13 18:20:33 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:33 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:33 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.8.6%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:33 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:33 -  - TIME LoadModulesUpdates(request) 0.257 sec
+2021-01-13 18:20:33 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:33 - S - STEP
+2021-01-13 18:20:33 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:35 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:35 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:35 -  - loadFile
+2021-01-13 18:20:35 - U - RETURN
+2021-01-13 18:20:35 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:35 -  - TIME UnGzipArchive 0.012 sec
+2021-01-13 18:20:35 -  - TIME UpdateStepModules 0.024 sec
+2021-01-13 18:20:35 - UPD_SUCCESS - Updated: sprint.migration (3.9.1)<br>1) Параметр в конфиге version_name_template позволяющий задавать название файла миграции (автор Константин Карнаухов) <br/>
+2021-01-13 18:20:36 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:36 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:36 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.9.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:36 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:37 -  - TIME LoadModulesUpdates(request) 0.264 sec
+2021-01-13 18:20:37 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:37 - S - STEP
+2021-01-13 18:20:37 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:38 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:38 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:38 -  - loadFile
+2021-01-13 18:20:38 - U - RETURN
+2021-01-13 18:20:38 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:38 -  - TIME UnGzipArchive 0.02 sec
+2021-01-13 18:20:38 -  - TIME UpdateStepModules 0.048 sec
+2021-01-13 18:20:38 - UPD_SUCCESS - Updated: sprint.migration (3.10.1)<br>1) Помечать миграцию как выполненную при создании через конструктор <br/> 2) Улучшение поиска файлов миграций (автор Игорь Долгополов) <br/> 3) Поиск миграций по тегам <br/>
+2021-01-13 18:20:39 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:39 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:39 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.10.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:39 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:40 -  - TIME LoadModulesUpdates(request) 0.237 sec
+2021-01-13 18:20:40 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:40 - S - STEP
+2021-01-13 18:20:40 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:41 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:41 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:41 -  - loadFile
+2021-01-13 18:20:42 - U - RETURN
+2021-01-13 18:20:42 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:42 -  - TIME UnGzipArchive 0.02 sec
+2021-01-13 18:20:42 -  - TIME UpdateStepModules 0.039 sec
+2021-01-13 18:20:42 - UPD_SUCCESS - Updated: sprint.migration (3.12.10)<br>1) Улучшение \"Настройки форм редактирования\", перенос, изменение id табов <br/> 2) Улучшение переноса пользовательских свойств - привязка к HL и привязка к инфоблоку (автор Игорь Долгополов)<br/> 3) Перенос категорий инфоблоков<br/> 4) Получение категорий элемента инфоблока в IblockHelper <br/> 5) Указание версии модуля при создании миграции <br/>
+2021-01-13 18:20:44 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:44 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:44 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.12.10%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:44 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:45 -  - TIME LoadModulesUpdates(request) 1.461 sec
+2021-01-13 18:20:45 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:45 - S - STEP
+2021-01-13 18:20:45 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:46 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:46 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:46 -  - loadFile
+2021-01-13 18:20:52 - U - RETURN
+2021-01-13 18:20:52 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:52 -  - TIME UnGzipArchive 0.01 sec
+2021-01-13 18:20:52 -  - TIME UpdateStepModules 0.015 sec
+2021-01-13 18:20:52 - UPD_SUCCESS - Updated: sprint.migration (3.12.12)<br>1) Перенос элементов в категории инфоблоков<br/> 2) Проверка совместимости миграции с версией модуля<br/>
+2021-01-13 18:20:54 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:54 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:54 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.12.12%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:54 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:54 -  - TIME LoadModulesUpdates(request) 0.277 sec
+2021-01-13 18:20:54 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:54 - S - STEP
+2021-01-13 18:20:54 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:55 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:55 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:55 -  - loadFile
+2021-01-13 18:20:56 - U - RETURN
+2021-01-13 18:20:56 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:56 -  - TIME UnGzipArchive 0.015 sec
+2021-01-13 18:20:56 - CSURUS1 - Run updater '/bitrix/updates/update_m1610551256/sprint.migration/updater3.12.17.php'
+2021-01-13 18:20:56 -  - TIME UpdateStepModules 0.027 sec
+2021-01-13 18:20:56 - UPD_SUCCESS - Updated: sprint.migration (3.12.17)<br>1) Доработка миграции по отображению списка элементов инфоблока <br/> 2) Фильтр не поддерживаемых и измененных миграций в админке и консоли <br/> 3) XML_ID проверка на непустые строки (автор leonid-chernyavskiy) <br/> 4) Перенос поля \"Активность\" в миграции по переносу элементов инфоблоков (автор Суздальцев Виктор) <br/> 
+2021-01-13 18:20:57 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:57 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:20:57 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.12.17%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:20:57 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:20:57 -  - TIME LoadModulesUpdates(request) 0.292 sec
+2021-01-13 18:20:57 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:57 - S - STEP
+2021-01-13 18:20:57 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:20:58 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:20:58 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:20:58 -  - loadFile
+2021-01-13 18:20:59 - U - RETURN
+2021-01-13 18:20:59 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:20:59 -  - TIME UnGzipArchive 0.014 sec
+2021-01-13 18:20:59 -  - TIME UpdateStepModules 0.023 sec
+2021-01-13 18:20:59 - UPD_SUCCESS - Updated: sprint.migration (3.13.1)<br>1) Доработка миграции по настройке отображения форм (автор Nikita Kurgalin) <br/> 2) Улучшение интерфейса админки, новые действия, группировка действий в меню <br/> 
+2021-01-13 18:21:00 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:00 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:00 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.13.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:00 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:01 -  - TIME LoadModulesUpdates(request) 1.35 sec
+2021-01-13 18:21:01 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:01 - S - STEP
+2021-01-13 18:21:01 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:21:03 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:03 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:03 -  - loadFile
+2021-01-13 18:21:03 - U - RETURN
+2021-01-13 18:21:03 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:21:03 -  - TIME UnGzipArchive 0.018 sec
+2021-01-13 18:21:03 -  - TIME UpdateStepModules 0.031 sec
+2021-01-13 18:21:03 - UPD_SUCCESS - Updated: sprint.migration (3.13.4)<br>1) Перенос миграций через меню действий в админке <br/> 2) Обработка исключений в обработчике EventHelper (автор anloc) <br/> 
+2021-01-13 18:21:04 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:04 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:04 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.13.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:04 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:05 -  - TIME LoadModulesUpdates(request) 0.294 sec
+2021-01-13 18:21:05 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:05 - S - STEP
+2021-01-13 18:21:05 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:21:06 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:06 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:06 -  - loadFile
+2021-01-13 18:21:06 - U - RETURN
+2021-01-13 18:21:06 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:21:06 -  - TIME UnGzipArchive 0.006 sec
+2021-01-13 18:21:06 -  - TIME UpdateStepModules 0.01 sec
+2021-01-13 18:21:06 - UPD_SUCCESS - Updated: sprint.migration (3.14.4)<br>1) Улучшение кода для проверки через Монитор качества (автор Anton) <br/> 2) Параметр в конфиге отключающий обработчики авторизации в консоли (автор Михаил Старков) <br/> 3) Исправление миграции по переносу категорий инфоблоков (автор FOlegF) <br/> 
+2021-01-13 18:21:07 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:07 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:07 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.14.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:07 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:08 -  - TIME LoadModulesUpdates(request) 0.309 sec
+2021-01-13 18:21:08 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:08 - S - STEP
+2021-01-13 18:21:08 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:21:09 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:09 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:09 -  - loadFile
+2021-01-13 18:21:09 - U - RETURN
+2021-01-13 18:21:09 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:21:09 -  - TIME UnGzipArchive 0.007 sec
+2021-01-13 18:21:09 -  - TIME UpdateStepModules 0.014 sec
+2021-01-13 18:21:09 - UPD_SUCCESS - Updated: sprint.migration (3.14.6)<br>1) Текстовое отображение статуса миграций в админке (автор Сергей Белоглазов) <br/> 
+2021-01-13 18:21:10 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:10 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:10 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.14.6%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:10 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:11 -  - TIME LoadModulesUpdates(request) 0.303 sec
+2021-01-13 18:21:11 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:11 - S - STEP
+2021-01-13 18:21:11 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:21:12 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:12 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:12 -  - loadFile
+2021-01-13 18:21:13 - U - RETURN
+2021-01-13 18:21:13 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:21:13 -  - TIME UnGzipArchive 0.036 sec
+2021-01-13 18:21:13 -  - TIME UpdateStepModules 0.062 sec
+2021-01-13 18:21:13 - UPD_SUCCESS - Updated: sprint.migration (3.16.3)<br>1) Возвращен параметр в конфиге tracker_task_url (автор @Oldfag)<br/> 2) Корректное отображение ошибки при попытке создать таблицы миграций (автор @oleg_slinko)<br/> 3) Добавлена поддержка английского языка
+2021-01-13 18:21:14 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:14 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:14 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.16.3%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:14 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:14 -  - TIME LoadModulesUpdates(request) 0.37 sec
+2021-01-13 18:21:14 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:14 - S - STEP
+2021-01-13 18:21:14 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:21:15 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:15 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:15 -  - loadFile
+2021-01-13 18:21:16 - U - RETURN
+2021-01-13 18:21:16 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:21:16 -  - TIME UnGzipArchive 0.01 sec
+2021-01-13 18:21:16 -  - TIME UpdateStepModules 0.017 sec
+2021-01-13 18:21:16 - UPD_SUCCESS - Updated: sprint.migration (3.19.1)<br>1) Исправлен вывод ошибок при ненайденном файле миграции (автор Игорь Долгополов)<br/> 2) Исправлена ошибка при переносе несуществующего файла (автор Павел, Вор Колпаков)<br/> 3) Метод $helper->UserTypeEntity()->deleteUserTypeEntity() также удаляет пользовательское поле по коду сущности (автор Сергей Грипинский) <br/> 4) Новые методы в хелперах: <ul> <li>$helper->Iblock()->saveElement()</li> <li>$helper->Iblock()->saveSection()</li> </ul> (автор Павел, Вор Колпаков)<br/> 5) Отключены обработчики авторизации в консоли <br/> 
+2021-01-13 18:21:17 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:17 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:17 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.19.1%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:17 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:17 -  - TIME LoadModulesUpdates(request) 0.265 sec
+2021-01-13 18:21:17 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:17 - S - STEP
+2021-01-13 18:21:17 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:21:19 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:19 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:19 -  - loadFile
+2021-01-13 18:21:19 - U - RETURN
+2021-01-13 18:21:19 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:21:19 -  - TIME UnGzipArchive 0.019 sec
+2021-01-13 18:21:19 -  - TIME UpdateStepModules 0.035 sec
+2021-01-13 18:21:19 - UPD_SUCCESS - Updated: sprint.migration (3.21.3)<br>1) Консольные команды доступны также через консоль симфони <br/> при подключении модуля как бандла Sprint\\Migration\\SymfonyBundle\\SprintMigrationBundle()<br/> 2) Настройки переноса элементов инфоблока (автор Андрей @icantstopthinkingofyou) <br/> 
+2021-01-13 18:21:20 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:20 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:20 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.21.3%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:20 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:21 -  - TIME LoadModulesUpdates(request) 0.284 sec
+2021-01-13 18:21:21 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:21 - S - STEP
+2021-01-13 18:21:21 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:21:22 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:22 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:22 -  - loadFile
+2021-01-13 18:21:22 - U - RETURN
+2021-01-13 18:21:22 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:21:22 -  - TIME UnGzipArchive 0.012 sec
+2021-01-13 18:21:22 -  - TIME UpdateStepModules 0.023 sec
+2021-01-13 18:21:22 - UPD_SUCCESS - Updated: sprint.migration (3.22.2)<br>1) Выбор нескольких элементов для переноса (автор Андрей @icantstopthinkingofyou) <br/> 
+2021-01-13 18:21:23 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.22.2%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:24 -  - TIME LoadModulesUpdates(request) 0.8 sec
+2021-01-13 18:21:24 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:24 - S - STEP
+2021-01-13 18:21:24 - LMU01 - LoadModulesUpdates-Step
+2021-01-13 18:21:25 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:25 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:25 -  - loadFile
+2021-01-13 18:21:26 - U - RETURN
+2021-01-13 18:21:26 -  - exec CUpdateClientPartner::UnGzipArchive
+2021-01-13 18:21:26 -  - TIME UnGzipArchive 0.011 sec
+2021-01-13 18:21:26 -  - TIME UpdateStepModules 0.018 sec
+2021-01-13 18:21:26 - UPD_SUCCESS - Updated: sprint.migration (3.23.4)<br>1) Выбор нескольких элементов для переноса (автор Андрей @icantstopthinkingofyou) <br/> 2) Переноса свойств инфоблока с типом привязка к категории (автор Андрей @icantstopthinkingofyou) <br/> 3) Кнопка удаления всех неизвестных миграций <br/> 4) Ошибка в классе миграции не сломает отображение списка миграций (работает в php7 и выше)<br/> 
+2021-01-13 18:21:27 -  - exec CUpdateClientPartner::LoadModulesUpdates
+2021-01-13 18:21:27 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:27 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.23.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=sprint.migration&lim=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:27 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:28 -  - TIME LoadModulesUpdates(request) 0.79 sec
+2021-01-13 18:21:28 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:28 - STEP - Finish - NOUPDATES
+2021-01-13 18:21:28 - STEP - Finish - NOUPDATES
+2021-01-13 18:21:40 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-13 18:21:40 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:40 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.23.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Csprint.migration&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:40 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:41 -  - TIME GetUpdatesList(request) 0.364 sec
+2021-01-13 18:21:41 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:21:42 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-13 18:21:42 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:21:42 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.23.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Csprint.migration&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:21:42 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:21:42 -  - TIME GetUpdatesList(request) 0.336 sec
+2021-01-13 18:21:42 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:23:03 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-13 18:23:03 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:23:03 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.23.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Csprint.migration&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:23:03 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:23:03 -  - TIME GetUpdatesList(request) 0.292 sec
+2021-01-13 18:23:03 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-13 18:23:15 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-13 18:23:15 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-13 18:23:15 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.23.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Csprint.migration&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-13 18:23:15 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-13 18:23:16 -  - TIME GetUpdatesList(request) 0.27 sec
+2021-01-13 18:23:16 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-14 10:41:51 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-14 10:41:51 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-14 10:41:51 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.23.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Csprint.migration&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-14 10:41:51 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-14 10:41:52 -  - TIME GetUpdatesList(request) 0.366 sec
+2021-01-14 10:41:52 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-25 18:08:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-25 18:08:22 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-25 18:08:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-25 18:08:22 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-25 18:08:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.23.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Csprint.migration&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::GetUpdatesList
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-25 18:08:23 -  - utf=Y&lang=ru&stable=Y&CANGZIP=Y&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=bitrix.loc&LICENSE_KEY=X&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&TYPENC=D&CLIENT_PHPVER=7.1.33&NGINX=Y&dbv=10.3.22&instm=main%2C20.200.300%2CY%3Babtest%2C20.5.0%2CN%3Bb24connector%2C20.5.0%2CN%3Bbitrix.eshop%2C20.5.0%2CN%3Bbitrix.sitecorporate%2C15.5.0%2CN%3Bbitrixcloud%2C20.5.0%2CN%3Bblog%2C20.100.100%2CN%3Bcatalog%2C20.0.500%2CN%3Bclouds%2C20.100.0%2CN%3Bconversion%2C20.5.0%2CN%3Bcurrency%2C20.5.0%2CN%3Bfileman%2C20.5.0%2CN%3Bform%2C20.100.0%2CN%3Bforum%2C20.5.0%2CN%3Bhighloadblock%2C20.100.0%2CN%3Biblock%2C20.0.1150%2CN%3Blanding%2C20.4.850%2CN%3Bmessageservice%2C20.100.0%2CN%3Bmobileapp%2C20.5.0%2CN%3Bperfmon%2C20.100.0%2CN%3Bphotogallery%2C20.5.0%2CN%3Bpull%2C20.5.300%2CN%3Breport%2C20.200.0%2CN%3Brest%2C20.50.150%2CN%3Bsale%2C20.5.43%2CN%3Bscale%2C20.5.0%2CN%3Bsearch%2C20.5.0%2CN%3Bsecurity%2C20.200.0%2CN%3Bsender%2C20.100.0%2CN%3Bseo%2C20.0.400%2CN%3Bsocialservices%2C20.0.500%2CN%3Bsprint.migration%2C3.23.4%2CN%3Bstoreassist%2C18.1.0%2CN%3Bsubscribe%2C20.5.0%2CN%3Btranslate%2C20.100.0%2CN%3Bui%2C20.5.887%2CN%3Bvote%2C20.100.100%2CN&reqm=bitrix.eshop%2Cbitrix.sitecorporate%2Csprint.migration&fullmoduleinfo=Y&SUPD_SRS=RU&SUPD_CMP=N
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-25 18:08:23 -  - TIME GetUpdatesList(request) 0.31 sec
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-25 18:08:23 -  - TIME GetUpdatesList(request) 0.33 sec
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::__CollectRequestData
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::GetHTTPPage
+2021-01-25 18:08:23 -  - exec CUpdateClientPartner::ParseServerData
+2021-01-25 18:08:24 -  - exec CUpdateClientPartner::ParseServerData
